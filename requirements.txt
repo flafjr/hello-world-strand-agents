@@ -1,0 +1,39 @@
+# Amazon Strand Agents Core Dependencies
+strands-agents
+strands-agents[sagemaker]
+strands-agents-tools
+strands-agents-builder
+
+# Jupyter Environment
+jupyter
+jupyterlab
+notebook
+ipykernel
+ipywidgets
+
+# Ollama Integration
+ollama
+requests
+aiohttp
+
+# Core ML/AI Libraries
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+
+# Additional AI Tools (uncommented for expanded functionality)
+joblib
+scikit-learn
+openai
+boto3
+
+# Optional AWS/Cloud Dependencies (commented for now)
+# mem0ai==0.1.114
+# opensearch-py
+# ddgs
+# faiss-cpu
+# sagemaker
+# bedrock-agentcore
+# bedrock-agentcore-starter-toolkit

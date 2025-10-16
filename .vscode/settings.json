@@ -1,0 +1,29 @@
+{
+    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "jupyter.kernels.excludePythonEnvironments": [],
+    "jupyter.interactiveWindow.cellMarker.codeRegex": "^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+    "python.analysis.extraPaths": [
+        "./agents",
+        "./tools", 
+        "./config"
+    ],
+    "python.analysis.include": [
+        "./agents/**",
+        "./tools/**",
+        "./config/**",
+        "./notebooks/**"
+    ],
+    "files.associations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.generateCellTag": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
+}
